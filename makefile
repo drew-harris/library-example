@@ -4,7 +4,7 @@ libLinux:
 
 libWindows:
 	clear
-	g++ -shared -o ./libcalc.dll ./lib/calc.cpp -Wl, --out-implib,./....
+	g++ -shared -o ./libcalc.dll ./lib/calc.cpp -Wl, --out-implib,./lib/libcalc.a
 
 buildLinux:
 	clear
